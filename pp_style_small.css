@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,400i');
+body {
+  background: url("https://s26.postimg.org/qn493d96h/e368b62a.png");
+  background-color: rgba(235, 235, 235, 1);
+}
+
+/*@media screen and (max-width: 480px) {*/
+  /*________ Business Card ________ */
+  .b-card {
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    top: 0;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(187, 187, 187, 1);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(187, 187, 187, 1);
+    box-shadow: 4px 4px 5px 0px rgba(187, 187, 187, 1);
+    padding: 1px;
+    z-index: 10;
+  }
+  .row-margin {
+    margin: 2% auto;
+    background-color: #FFF;
+    width: 99%;
+  }
+  .logo {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 3%;
+  }
+
+  .brand-sq img {
+    display:block;
+    width: 90% !important;
+    heigth: auto;
+    margin: 0 auto;
+  }
+
+  .social {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .icons {
+    display: inline-block;
+    margin: 0 2%;
+  }
+  .icons p {
+    color: #282828;
+  }
+
+  .icons p:hover {
+    color: #8342f4;
+  }
+
+  .contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #282828;
+  }
+
+  .contact p:hover {
+    color: #8342f4;
+  }
+
+  /*________ Navigation ________ */
+  .nav-bar {
+    width: 100%;
+    height: 60px;
+    background-color: #FFF;
+    bottom: 0;
+    position: fixed;
+    -webkit-box-shadow: 0px -2px 2px 0px rgba(187, 187, 187, 1);
+    -moz-box-shadow: 0px -2px 2px 0px rgba(187, 187, 187, 1);
+    box-shadow: 0px -2px 2px 0px rgba(187, 187, 187, 1);
+    z-index: 9;
+  }
+  .menu {
+    height: 60px;
+    width: auto;
+    padding-top: 5%;
+  }
+  .menu li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000;
+    padding: 0 7% 3% 7%;
+  }
+
+  .menu li a:hover {
+    color: #231142;
+  }
+
+  .menu li a.is-active {
+    color: #8342f4;
+    border-left: 10px solid #8342f4;
+    padding-right: 2%;
+  }
+
+  /*________ Portfolio ________ */
+  .content {
+    height: auto;
+    width: 99%;
+    background-color: rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(235, 235, 235, 0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(235, 235, 235, 0.75);
+    box-shadow: 0px 0px 5px 2px rgba(235, 235, 235, 0.75);
+    padding: 1px;
+    margin: 5% auto;
+  }
+  .sec-title {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: #000;
+    padding-top: 7%;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(187, 187, 187, 1);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(187, 187, 187, 1);
+    box-shadow: 0px 4px 5px 0px rgba(187, 187, 187, 1);
+  }
+
+  .sec-title p {
+    color: #8342f4;
+  }
+
+  .port-item {
+    height: auto;
+    width: 95%;
+    padding: 1%;
+    backgroundcolor: rgba(235, 235, 235, 1);
+    border-bottom: 3px solid #8342f4;
+    margin-bottom: 5%;
+  }
+
+  .first {
+    margin-top: 2%;
+  }
+  .plus {
+    margin-top: 4%;
+  }
+  .txt-sec {
+    padding: 5% 1% 1% 1%;
+    height: 100%;
+  }
+  .txt-sec h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #231142;
+  }
+  .txt-sec p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    color: #231142;
+  }
+
+  .img-sec .columns {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .pi {
+    width: 250px;
+    height: 250px;
+    margin: 3% auto;
+  }
+
+
+  #web {
+    margin-top: 5%;
+  }
+
+  #graphic {
+    margin-top: 2%;
+  }
+
+  #graphic .sec-title p {
+    font-size: 45px;
+  }
+
+  .material-icons.md-48 { font-size: 48px; }
+
+  /*________ Footer ________ */
+  .foot {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    margin-top: 5%;
+/*     padding-top: 1%; */
+  }
+  .foot p {
+    color: #8342f4;
+  }
+
+  .col-margin {
+    margin: 0 auto;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    padding: 3% 0 0 0;
+  }
+  .under-foot {
+    width: 100%;
+    height: auto;
+    padding: 2% 0 0 0;
+    background-color: #FFF;
+  }
+
+  .under-foot p {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    padding: 0;
+  }
+
+  .u-under-foot {
+    width: 100%;
+    height: 50px;
+  }
+/*}*/
